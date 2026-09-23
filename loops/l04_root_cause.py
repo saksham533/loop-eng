@@ -154,6 +154,7 @@ class L04_RootCauseAnalysisLoop:
                 "confidence": 0.90,
                 "evidence_summary": "OrderService recorded idempotency attempt before crash; retries skipped as duplicates."
             }
+            
 
         return {
             "root_cause": reflexion_data.get("root_cause"),
