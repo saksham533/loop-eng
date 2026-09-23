@@ -1,8 +1,27 @@
-data/
+# Python
 __pycache__/
-*.pyc
+*.py[cod]
+.pytest_cache/
 .venv/
 venv/
+env/
+
+# Environment / secrets
 .env
-.pytest_cache/
-*.db
+.env.*
+!.env.example
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+
+# Build / packaging
+dist/
+build/
+*.egg-info/
+
+# Logs
+*.log

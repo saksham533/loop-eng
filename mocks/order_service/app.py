@@ -139,3 +139,4 @@ def _trigger_erp(order_id: str, payment_id: str) -> None:
                    timeout=3.0)
     except Exception:
         pass
+    

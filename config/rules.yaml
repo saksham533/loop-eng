@@ -1,0 +1,8 @@
+# config/rules.yaml
+rules:
+  "HTTP_500":
+    severity: "HIGH"
+    category: "SERVER_ERROR"
+  "TIMEOUT_408":
+    severity: "MEDIUM"
+    category: "NETWORK"
